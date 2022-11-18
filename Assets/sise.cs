@@ -9,7 +9,7 @@ public class sise : MonoBehaviour
     public Transform sise2;
     public TextMeshProUGUI canYazisi;
     public int can;
-
+    //TODO: add motion functionality
     private void Update()
     {
         canYazisi.text = "Can : " + can;
